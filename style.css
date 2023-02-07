@@ -6,6 +6,10 @@ h2 {
     font-size: 40px;
 }
 
+h3 {
+    font-size: 30px;
+}
+
 .orange {
     color: #FBA24F;
 }
@@ -16,7 +20,7 @@ h2 {
     padding: 10px 30px;
     color: white;
     font-weight: 700;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 
 .f-con {
@@ -25,4 +29,34 @@ h2 {
 
 }
 
-.half-width {}
+.half-width {
+    width: 50%;
+    padding-left: 5%;
+}
+
+.half-width img {
+    width: 50%;
+}
+
+#vino {
+    color: rgb(150, 148, 146);
+}
+
+#chotto img {
+    width: 80%;
+}
+
+.back-g {
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 100%;
+}
+
+#gap {
+    text-align: center;
+}
+
+#wh {
+    color: rgb(126, 161, 161);
+}
