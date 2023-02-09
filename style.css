@@ -60,3 +60,30 @@ h3 {
 #wh {
     color: rgb(126, 161, 161);
 }
+.rec-list{
+    display: flex;
+    margin: 2px;
+    padding: 5%;
+}
+.rec-title{
+    border: 15px;
+    border-style: solid;
+    border-color: rgb(178, 208, 212);
+    border-radius: 50px;
+    padding: 10px;
+    width: 25%;
+    height: 130%;
+    display: block;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    box-shadow: rgba(85, 96, 102, 0.2) 0px 7px 29px 0px;
+}
+.rec-title img{
+    width: 200px;
+
+}
+.rec-title p{
+    width: 55%;
+    margin-right: auto;
+}
