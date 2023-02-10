@@ -60,15 +60,16 @@ h3 {
 #wh {
     color: rgb(126, 161, 161);
 }
-.rec-list{
+#rec-list{
     display: flex;
+    flex-direction: row;
     margin: 2px;
     padding: 5%;
 }
 .rec-title{
-    border: 15px;
+    border: 10px;
     border-style: solid;
-    border-color: rgb(178, 208, 212);
+    border-color: rgba(120, 116, 115, 0.77);
     border-radius: 50px;
     padding: 10px;
     width: 25%;
@@ -80,10 +81,71 @@ h3 {
     box-shadow: rgba(85, 96, 102, 0.2) 0px 7px 29px 0px;
 }
 .rec-title img{
-    width: 200px;
+    width: 100%;
 
 }
 .rec-title p{
     width: 55%;
     margin-right: auto;
 }
+#soc-status{
+  width: 70%;
+  display: flex;
+  height: 200px;
+  align-content: center;
+  box-shadow:  rgb(1, 1, 20) 0px 7px 29px 0px;;
+  margin-top: 25px;
+  margin-bottom: 90px;
+  margin-left: 15%;
+  margin-right: 10%;
+}
+.status{
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-bottom: 2%;
+    margin-right: auto;
+}
+.status h1{
+    margin-bottom: 5%;
+
+}
+footer{
+   margin-top: 50px;
+   width: 90%;
+   padding: 20px 0 40px 20px;
+   background-color: #d87d0e;
+   height: auto;
+}
+footer ul{
+    text-align: center;
+    list-style-type: none;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    padding: 5px;
+}
+footer ul li {
+    display: inline-block;
+  }
+  footer .social {
+    display: inline-block;
+    margin-left: 5px;
+    width: 30px;
+    height: 30px;
+    background-size: 30px 30px;
+  }
+  
+  footer .twitter {
+    background-image: url(images/twitter.svg);
+  }
+  footer .linkedin {
+    background-image: url(images/linkedin.svg);
+  }
+  footer .github {
+    background-image: url(images/github.svg);
+  }
+  footer p {
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+  }
